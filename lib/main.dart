@@ -293,6 +293,10 @@ class _MyAppState extends State<MyApp> {
                             padding: const EdgeInsets.symmetric(
                                 horizontal: 5.0, vertical: 7),
                             child: (Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(10),
+                                color: Colors.white,
+                              ),
                               width: MediaQuery.of(context).size.width * 0.4,
                               height: MediaQuery.of(context).size.height * 0.17,
                               child: Column(
@@ -305,7 +309,13 @@ class _MyAppState extends State<MyApp> {
                                     width: MediaQuery.of(context).size.width *
                                         0.22,
                                   ),
-                                  Text("${Clothes().getAllclothes()[index]}"),
+                                  Text(
+                                    "${Clothes().getAllclothes()[index]}",
+                                    style: TextStyle(
+                                        fontSize: 15,
+                                        color: Colors.purple[900],
+                                        fontWeight: FontWeight.bold),
+                                  ),
                                 ],
                               ),
                             )),
