@@ -15,9 +15,9 @@ class Clothes {
   ];
 //men image list
   List menImage = [
-    'menShirt.png',
-    'menShirt.png',
-    'menShirt.png',
+    'log.png',
+    'log.png',
+    'log.png',
   ];
 
 //Women name list
@@ -34,9 +34,9 @@ class Clothes {
   ];
 //women image list
   List womenImage = [
-    'womendress.png',
-    'womendress.png',
-    'womenShose.png',
+    'log.png',
+    'log.png',
+    'log.png',
   ];
 //kids list
   List Kids = [
@@ -53,9 +53,9 @@ class Clothes {
 
 //kids image list
   List kidsImages = [
-    'kidsshert.png',
-    'kidsphoto.png',
-    'kidsshert.png',
+    'log.png',
+    'log.png',
+    'log.png',
   ];
 
 //get all phone name to one list and return it

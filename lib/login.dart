@@ -12,7 +12,7 @@ class login extends StatefulWidget {
 }
 
 class _loginState extends State<login> {
-  String user = "Rena";
+  String user = "rena";
   String pass = "1234";
   String inpuser = "";
   String inppass = "";

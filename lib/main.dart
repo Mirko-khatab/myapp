@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
           children: [
             DrawerHeader(
                 decoration: BoxDecoration(
-                  color: Colors.pink[200],
+                  color: Colors.purple[200],
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -47,7 +47,7 @@ class _MyAppState extends State<MyApp> {
                   children: [
                     CircleAvatar(
                       radius: MediaQuery.of(context).size.width * 0.1,
-                      backgroundImage: AssetImage('images/profile.jpeg'),
+                      backgroundImage: AssetImage('images/log.png'),
                     ),
                     Text(
                       "Rena kamal",
@@ -89,9 +89,9 @@ class _MyAppState extends State<MyApp> {
           ],
         ),
       ),
-      backgroundColor: Colors.pink[200],
+      backgroundColor: Colors.purple[200],
       appBar: AppBar(
-        backgroundColor: Colors.pink[200],
+        backgroundColor: Colors.purple[200],
         title: Text('Onlineshop'),
         actions: [
           Row(
@@ -278,7 +278,7 @@ class _MyAppState extends State<MyApp> {
                   //   topLeft: Radius.circular(70),
                   //   topRight: Radius.circular(70),
                   // ),
-                  color: Colors.pink[200],
+                  color: Colors.purple[200],
                 ),
                 width: double.infinity,
                 height: MediaQuery.of(context).size.height * 0.497,

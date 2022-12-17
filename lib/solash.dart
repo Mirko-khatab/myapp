@@ -38,8 +38,8 @@ class _solashState extends State<solash> {
               Text(
                 "Shoping",
                 style: TextStyle(
-                    color: Colors.pinkAccent,
-                    fontSize: 42,
+                    color: Colors.purple[700],
+                    fontSize: MediaQuery.of(context).size.height * 0.05,
                     fontWeight: FontWeight.bold),
               ),
               SizedBox(height: 30),
